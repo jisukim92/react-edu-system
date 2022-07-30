@@ -1,0 +1,42 @@
+{
+  "name": "final-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.79.1",
+    "@nivo/core": "^0.79.0",
+    "@nivo/line": "^0.79.1",
+    "@nivo/radar": "^0.79.1",
+    "axios": "^0.27.2",
+    "d3": "^7.5.0",
+    "date-fns": "^2.28.0",
+    "file-saver": "^2.0.5",
+    "http-proxy-middleware": "^2.0.6",
+    "moment": "^2.29.1",
+    "nivo": "^0.31.0",
+    "react": "^18.2.0",
+    "react-big-calendar": "^0.40.2",
+    "react-calendar": "^3.7.0",
+    "react-content-loader": "^6.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-to-pdf": "^0.0.14",
+    "styled-components": "^5.3.5",
+    "swiper": "6.8.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "msw": "^0.43.1",
+    "vite": "^2.8.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
