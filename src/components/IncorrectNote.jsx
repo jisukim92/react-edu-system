@@ -231,7 +231,7 @@ clearOnCheckTheAnswerPrev 함수
           <SubjectSelect
             options={subjectList}
             defaultValue={subjectList[0]}
-            selected={unitSelected}
+            selected={selected}
             setSelected={setSelected}
             handleSeleted={handleSeleted} //이벤트
           />
